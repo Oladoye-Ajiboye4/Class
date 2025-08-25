@@ -12,6 +12,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
@@ -54,7 +58,7 @@ button{
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    
+    font-family: Sans-Serif; 
     gap: 10px;
     color: white;
 }
